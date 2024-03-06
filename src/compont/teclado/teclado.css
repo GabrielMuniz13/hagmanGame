@@ -1,7 +1,4 @@
-/* @font-face {
-    font-family: 'MouseMemoirs-Regular';
-    src: local('MouseMemoirs-Regular'), url('../assets/MouseMemoirs-Regular.ttf') format('truetype');
-} */
+
   
 
 
@@ -9,12 +6,12 @@
 .conteiner-teclado{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 24px;
 }
 .teclado-linha{
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 24px;
     justify-content: center;
 }
 .box-letra{
@@ -23,7 +20,7 @@
     align-items: center;
 
     width: 109px;
-    height: 109px;
+    height: 84px;
 
     border-radius: 25px;
     font-size: 48px;
