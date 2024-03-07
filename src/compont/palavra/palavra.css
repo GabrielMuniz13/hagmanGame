@@ -1,3 +1,5 @@
+
+
 .conteiner-box-letra-show{
     display: flex;
     flex-direction: row;
@@ -17,12 +19,13 @@
     border-radius: 40px;
     font-size: 88px;
     font-weight: 400;
-  
+
+    font-family: 'MouseMemoirs', sans-serif;
 }
 .letra-vizible{
     color: #FFF;
 
-    box-shadow: 0px -1px 0px 2px #3C74FF, 0px 2px 0px 3px #140E66;
+    box-shadow: 0px -10px 0px 2px #3C74FF, 0px 2px 0px 3px #140E66;
     background-color: #2463FF;
 }
 .letra-not-vizible{

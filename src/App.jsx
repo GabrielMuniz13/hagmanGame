@@ -5,9 +5,9 @@ import { Menu } from './compont/menu/menu';
 
 
 export const App = () => {
-    const palavra = 'CACHORRO'
+    const palavra = 'GUINE'
     const [menu, setMenu] = useState(true)
-    const [letras, setLetras] = useState (['', '', '', '', '', '', '', '']);
+    const [letras, setLetras] = useState (['', '', '', '', '']);
     
     const [alfabeto, setAlfabeto] = useState(
         [
@@ -71,11 +71,17 @@ export const App = () => {
         }
         setLetras(novasLetras);
     }
+
+    const closeMenu = () => {
+        setMenu(false)
+    }
     return (
         <div>
+            {/* close menu e para passar para outro componente ou analisar melhor */}
             { menu ? (
                 <div>
-                    <Menu/>
+                    <Menu closeMenu={closeMenu}/>
+                   
                 </div>
                 
             ) : (
